@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
-import { motion } from "framer-motion";
+
 function Nav({onclick}) {
   const [show, handleShow] = useState(false);
   const transitionNavBar = () => {
